@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+header{
+    background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/netflix_movies_cover.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo p{
+    position: absolute;
+    color: red;
+    left: 5%;
+    top: 5%;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.nav{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.nav select{
+    height: 35px;
+    outline: none;
+    border: 1px #fff solid;
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+
+option{
+    background-color: rgb(129, 123, 123);
+}
+
+.nav button{
+    height: 35px;
+    width: 80px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hero h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero h3{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.hero input{
+    height: 60px;
+    width: 75%;
+    padding-left: 5px;
+    outline: none;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.hero button{
+    height: 60px;
+    width: 24%;
+    margin-left: 0;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.hero button:hover{
+    background-color: rgb(233, 23, 23);
+}
+
+/* Sections */
+
+.row{
+    width: 90%;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    background-color: #000;
+    border-top: 8px solid rgb(31, 29, 29);
+}
+
+.tv img{
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+
+section p {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.mobile img{
+    height: 380px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
+.device img{
+    height: 350px;
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+/* Questions */
+
+.section-questions{
+    width: 60%;
+    margin:0 auto;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.section-questions h1{
+    text-align: center;
+}
+
+.question{
+    background-color: rgb(49, 46, 46);
+    height: 70px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-questions:last-child{
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.question p{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.plus-icon{
+    font-size: 40px;
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.question:last-child{
+    margin-bottom: 40px;
+}
+
+/* Footer*/
+
+footer{
+    background-color: #000;
+    border-top: 8px solid rgb(31, 29, 29);
+    padding-top: 70px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.links{
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(170, 165, 165);
+}
+
+footer a:hover{
+    border-bottom: 1px solid rgb(170, 165, 165);
+}
+
+.main-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.main-links ul li{
+    margin-top: 15px;
+}
+
+footer p {
+    color:rgb(170, 165, 165);
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+
+.answer{
+    margin-top: 2px;
+    display: none;
+}
+
+.answer p{
+    width: 100%;
+    background-color: rgb(49, 46, 46);
+    padding: 20px;
+}
+
+.icon-earth{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(40%, -50%);
+}
+
+
+
+
+
